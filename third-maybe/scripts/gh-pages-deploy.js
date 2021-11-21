@@ -3,7 +3,7 @@ const fs = require("fs");
 const rimraf = require("rimraf");
 const promisify = require("promisify");
 // const promisify = require("promisify");
-const rmrf = promisify(rimraf)
+const rmrf = promisify(rimraf);
 // const rmrf = promisify
 
 (async () => {
