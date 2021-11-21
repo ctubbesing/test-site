@@ -1,7 +1,9 @@
+import { promisify } from "util";
+
 const execa = require("execa");
 const fs = require("fs");
 const rimraf = require("rimraf");
-const { promisify } = require("util");
+// const promisify = require("promisify");
 const rmrf = promisify(rimraf)
 
 (async () => {
