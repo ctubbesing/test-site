@@ -1,7 +1,5 @@
 const execa = require("execa");
 const fs = require("fs");
-const { promisify } = require("util");
-const rmrf = promisify(rimraf)
 
 (async () => {
   try {
@@ -19,7 +17,7 @@ const rmrf = promisify(rimraf)
     await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
     console.log("Cleaning up...")
     // await execa("rm", ["-r", folderName]);
-    await rmrf(folderName, { glob: false })
+    await rimraf(folderName, { glob: false })
     await execa("git", ["checkout", "-f", "main"]);
     await execa("git", ["branch", "-D", "gh-pages"]);
     console.log("Successfully deployed");
