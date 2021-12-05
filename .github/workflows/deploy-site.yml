@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./third-maybe
-        # working-directory: ./fourth-try
+        working-directory: ./fourth-try
     steps:
       - name: Setup Node.js for use with actions
         uses: actions/setup-node@v1.4.4
