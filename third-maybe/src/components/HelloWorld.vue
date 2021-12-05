@@ -1,14 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h4>Testing deploy script</h4>
-    <h4>Testing script again</h4>
-    <h4>Again</h4>
-    <h4>Lotsa testing</h4>
-    <h4>rm issue still</h4>
-    <h4>:/</h4>
-    <h4>testing yaml syntax</h4>
-    <h4>testing again</h4>
+    <div class="success-box">
+      <h3>Yay finally auto-deploy works</h3>
+    </div>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -62,5 +57,13 @@ li {
 }
 a {
   color: #42b983;
+}
+.success-box {
+  background-color: #6da;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #6ad;
+  padding: 20px;
+  margin: 15px;
 }
 </style>
