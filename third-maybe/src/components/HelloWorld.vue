@@ -66,6 +66,6 @@ a {
   border-color: #6ad;
   padding: 20px;
   margin: 15px auto;
-  width: 500px;
+  max-width: 500px;
 }
 </style>
