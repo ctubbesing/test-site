@@ -18,8 +18,10 @@ jobs:
       - name: switch dir
         run: cd .\third-maybe\
 
-      - name: print dir
+      - name: print working dir
         run: pwd
+      
+      - name: print dir
         run: ls
 
       - name: Clean install dependencies
