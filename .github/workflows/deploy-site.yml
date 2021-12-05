@@ -7,6 +7,9 @@ jobs:
   gh-pages-deploy:
     name: Deploying to gh-pages
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./third-maybe
     steps:
       - name: Setup Node.js for use with actions
         uses: actions/setup-node@v1.4.4
@@ -21,8 +24,8 @@ jobs:
       - name: list destination dir
         run: ls ./third-maybe
 
-      - name: switch dir
-        run: cd ./third-maybe
+      # - name: switch dir
+      #   run: cd ./third-maybe
 
       - name: print working dir
         run: pwd
