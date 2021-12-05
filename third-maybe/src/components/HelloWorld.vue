@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <div class="success-box">
-      <h3>Yay finally auto-deploy works</h3>
+      <h3 style="margin-top: 0">Yay finally auto-deploy works</h3>
     </div>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -60,10 +60,12 @@ a {
 }
 .success-box {
   background-color: #6da;
+  border-style: solid;
   border-width: 3px;
   border-radius: 10px;
   border-color: #6ad;
   padding: 20px;
-  margin: 15px;
+  margin: 15px auto;
+  width: 500px;
 }
 </style>
