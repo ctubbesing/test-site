@@ -17,21 +17,21 @@ jobs:
           version:  12.x
       - name: Checkout branch
         uses: actions/checkout@v2
-      
-      - name: list dir
-        run: ls
-
-      - name: list destination dir
-        run: ls ./third-maybe
-
-      # - name: switch dir
-      #   run: cd ./third-maybe
 
       - name: print working dir
         run: pwd
       
-      - name: list new dir
+      - name: list dir
         run: ls
+
+      # - name: list destination dir
+      #   run: ls ./third-maybe
+
+      # - name: switch dir
+      #   run: cd ./third-maybe
+      
+      # - name: list new dir
+      #   run: ls
 
       - name: Clean install dependencies
         run: npm ci
