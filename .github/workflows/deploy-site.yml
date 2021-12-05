@@ -15,8 +15,11 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v2
       
-      - name: print dir
+      - name: list dir
         run: ls
+
+      - name: list destination dir
+        run: ls third-maybe
 
       - name: switch dir
         run: cd /third-maybe
@@ -24,7 +27,7 @@ jobs:
       - name: print working dir
         run: pwd
       
-      - name: print new dir
+      - name: list new dir
         run: ls
 
       - name: Clean install dependencies
