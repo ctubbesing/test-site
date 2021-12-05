@@ -14,14 +14,17 @@ jobs:
           version:  12.x
       - name: Checkout branch
         uses: actions/checkout@v2
+      
+      - name: print dir
+        run: ls
 
       - name: switch dir
-        run: cd .\third-maybe\
+        run: cd third-maybe
 
       - name: print working dir
         run: pwd
       
-      - name: print dir
+      - name: print new dir
         run: ls
 
       - name: Clean install dependencies
