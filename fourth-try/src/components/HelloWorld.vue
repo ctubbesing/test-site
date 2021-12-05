@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <div class="success-box">
+      <h3 style="margin-top: 0">Yay auto-deploy still works</h3>
+    </div>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -136,5 +139,15 @@ li {
 }
 a {
   color: #42b983;
+}
+.success-box {
+  background-color: #6da;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #6ad;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 500px;
 }
 </style>
