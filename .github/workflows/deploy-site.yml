@@ -19,7 +19,7 @@ jobs:
         run: ls
 
       - name: switch dir
-        run: cd third-maybe
+        run: cd /third-maybe
 
       - name: print working dir
         run: pwd
