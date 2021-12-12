@@ -10,7 +10,7 @@
   <!-- mask="url(#myMask)" -->
   <!-- clip-path="url(#test-clip)" -->
   <!-- stroke="#9ed" -->
-  <!-- <rect
+  <rect
     x="0"
     y="0"
     width="100%"
@@ -18,8 +18,8 @@
     fill="#9de"
     stroke="none"
     mask="none"
-  /> -->
-  <rect
+  />
+  <!-- <rect
     x="0"
     y="0"
     width="100%"
@@ -27,7 +27,7 @@
     fill="#043"
     stroke="none"
     mask="none"
-  />
+  /> -->
   <!-- <rect
     x="2"
     y="2.5"
@@ -58,7 +58,7 @@
       <!-- <rect    fill="black" x="4" y="4" width="4" height="10" />
       <polygon fill="black" points="0.5,0.2 0.68,0.74 0.21,0.41 0.79,0.41 0.32,0.74" /> -->
   <!-- Border -->
-  <!-- <path
+  <path
     d="
       M 2.5 3
       l 15 0
@@ -68,8 +68,8 @@
     "
     stroke="#043"
     fill="#043"
-  /> -->
-  <path
+  />
+  <!-- <path
     d="
       M 1.5 2
       l 17 0
@@ -78,7 +78,7 @@
       Z
     "
     stroke="#9de"
-  />
+  /> -->
   <!-- B -->
   <path
     d="

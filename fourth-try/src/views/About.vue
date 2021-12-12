@@ -1,9 +1,14 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
+    <h1>asdfasdfasdf</h1>
     <img
       style="max-width: 512px"
       src="@/assets/icon.svg"
+    />
+    <img
+      style="max-width: 512px"
+      src="@/assets/icon2.svg"
     />
     <br>
     <snake-graphic
