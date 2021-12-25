@@ -4,6 +4,8 @@
     <div class="success-box">
       <h3 style="margin-top: 0">Yay auto-deploy still works</h3>
     </div>
+    <button @click="printWindowInfo()">Window</button>
+    <button @click="printProcessInfo()">Process</button>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
@@ -120,6 +122,17 @@ export default Vue.extend({
   name: "HelloWorld",
   props: {
     msg: String,
+  },
+  methods: {
+    printWindowInfo() {
+      console.log('window:')
+      console.log(window)
+    },
+    printProcessInfo() {
+      console.log('process:')
+      console.log(process)
+      console.log(process.env.BASE_ENV)
+    },
   },
 });
 </script>
