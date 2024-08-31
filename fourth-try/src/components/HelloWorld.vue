@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <div class="success-box">
-      <h3 style="margin-top: 0">Yay auto-deploy still works</h3>
+      <h3 style="margin-top: 0">Yay auto-deploy still works - 8/30/24</h3>
     </div>
     <button @click="printWindowInfo()">Window</button>
     <button @click="printProcessInfo()">Process</button>
