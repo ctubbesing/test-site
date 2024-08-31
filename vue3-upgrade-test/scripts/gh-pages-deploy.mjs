@@ -26,6 +26,8 @@ import { existsSync } from "fs";
       console.log('Please stash or commit changes first!')
     }
     console.log("Error: " + e.message);
+    console.log("Full error:");
+    console.log(e);
     process.exit(1);
   }
 })();
